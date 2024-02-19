@@ -1,5 +1,4 @@
 -- Bulan dengan total nilai transaksi terbesar selama 2021.
-
 SELECT
     FORMAT_DATE('%B',order_date) AS month,
     round(SUM(after_discount)) total_sales
